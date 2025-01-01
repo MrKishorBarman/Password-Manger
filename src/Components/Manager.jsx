@@ -97,7 +97,7 @@ const Manager = () => {
                 <h2 className='font-bold text-2xl pb-4'>Your Passwords</h2>
                 {passwordArray.length === 0 ?
                     (<div className='font-semibold'>No passwords to display</div>) :
-                    (<table className="table-auto w-[990px] rounded-md mb-20">
+                    (<table className="table-auto lg:w-[990px] rounded-md mb-20">
                         <thead className='bg-green-800 text-white'>
                             <tr>
                                 <th className='py-2'>Site</th>
